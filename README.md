@@ -19,6 +19,7 @@ All work is done in a Jupyter notebook where you implement the cryptanalysis tec
 ## Quick Start
 ### Important: 
 Unless you want to have Jupyter Notebook installed on your computer locally or learn how to use Google Colab, you can skip this step (Jupyter Notebook installation steps) entirely and just use the link below:
+
 **Online Jupyter Notebook:** https://jupyter.org/try-jupyter/lab/
 
 ### Install Jupyter Notebook
