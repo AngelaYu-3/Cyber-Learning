@@ -1,4 +1,5 @@
 # Angela's Notes
+[**Cryptography Reference Slides**](https://docs.google.com/presentation/u/1/d/1ue1RguJ0uVqEmuDLxonbL6OOXtbZXTmzwA-ZfquMz_E/mobilepresent?slide=id.g129cb18d185_0_808)
 
 - **Caesar Cipher:** shifting each letter of message by a fixed number of positions (shift number is the key) to get an encrypted message
 - **distance_from_english(text:str) -> float fxn:** using chi-squared (squared difference between expected and observed) to define how close the inputted text is to english based on what is expected by english frequencies
