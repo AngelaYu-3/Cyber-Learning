@@ -1,3 +1,10 @@
+# Angela's Notes
+
+- **Caesar Cipher:** shifting each letter of message by a fixed number of positions (shift number is the key) to get an encrypted message
+- **distance_from_english(text:str) -> float fxn:** using chi-squared (squared difference between expected and observed) to define how close the inputted text is to english based on what is expected by english frequencies
+- 
+
+___
 # CSEC Classic Cryptography Workshop
 
 A hands-on introduction to breaking the Vigenère cipher through cryptanalysis in Python.
@@ -13,8 +20,6 @@ A hands-on introduction to breaking the Vigenère cipher through cryptanalysis i
 
 This workshop teaches cryptanalysis by implementing attacks on the Vigenère cipher. 
 All work is done in a Jupyter notebook where you implement the cryptanalysis techniques.
-
----
 
 ## Quick Start
 ### Important: 
@@ -32,7 +37,6 @@ pip3 install jupyter
 jupyter --version
 ```
 
----
 
 ## Launch Workshop
 
@@ -51,7 +55,6 @@ This opens your browser at http://localhost:8888
 
 Open `vigenere_workshop.ipynb` in the file browser and _follow the instructions_.
 
----
 
 ## After Setup
 
@@ -60,7 +63,6 @@ In Jupyter:
  - Cells run in order from top to bottom
  - Kernel → Restart to reset everything
 
----
 
 ## Basic Python Reference
 
@@ -165,7 +167,6 @@ group = text[start::key_length]
 text.count('ABC')
 ```
 
----
 
 ## Troubleshooting
 
@@ -199,7 +200,6 @@ python3 --version
 - Make sure you ran all previous cells in order
 - Restart kernel and run from beginning
 
----
 
 ## Alternative: Using Google Colab
 
@@ -210,7 +210,6 @@ To use without installing Jupyter locally:
 3. Upload `vigenere_workshop.ipynb`
 4. Run cells normally
 
----
 
 ## Disclaimer
 
@@ -223,7 +222,6 @@ To use without installing Jupyter locally:
 
 By participating, you acknowledge understanding these terms and agree to use this knowledge ethically and legally.
 
----
 
 ## Additional Resources
 
@@ -233,7 +231,6 @@ By participating, you acknowledge understanding these terms and agree to use thi
 - [CyberChef](https://gchq.github.io/CyberChef/) - Useful toolkit for cryptoanalysis
 - "Introduction to Modern Cryptography" by Jonathan Katz
 - [Elementary Group Theory for Programmers](https://rareskills.io/post/group-theory) - Mathematical foundations for modern cryptography
----
 
 Authors: Clarence Lam, Sasha Zyuzin
 
